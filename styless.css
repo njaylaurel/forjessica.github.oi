@@ -7,7 +7,6 @@
 }
 
 #slider {
-  position: absolute;
   width: 10%;
   height: 32vw;
   margin: 5px auto;
@@ -23,8 +22,8 @@
 
 input[type="radio"] {
   position: relative;
-  top: 110%;
-  left: 160%;
+  top: 120%;
+  left: 185%;
   width: 15px;
   height: 15px;
   margin: 0 15px 0 0;
@@ -140,7 +139,7 @@ input[type="radio"]:checked {
   font-size: 1.5em;
   font-weight: 700;
   text-align: left;
-  color: rgb(245, 245, 245); /* Adjust the color to your preference */
+  color: #ff7fa4/* Adjust the color to your preference */
 }
 
 @media only screen and (max-width: 600px) {
@@ -231,7 +230,7 @@ input[type="radio"]:checked {
 
 
 :root {
-  --dark-color: #000;
+  --dark-color: #fee8db;;
 }
 
 body {
@@ -253,7 +252,7 @@ body {
   width: 100%;
   height: 100%;
   filter: blur(0.1vmin);
-  background-image: radial-gradient(ellipse at top, transparent 0%, var(--dark-color)), radial-gradient(ellipse at bottom, var(--dark-color), rgba(145, 233, 255, 0.2)), repeating-linear-gradient(220deg, black 0px, black 19px, transparent 19px, transparent 22px), repeating-linear-gradient(189deg, black 0px, black 19px, transparent 19px, transparent 22px), repeating-linear-gradient(148deg, black 0px, black 19px, transparent 19px, transparent 22px), linear-gradient(90deg, #00fffa, #f0f0f0);
+  background: #fee8db;
 }
 
 .flowers {
@@ -664,7 +663,7 @@ body {
   right: 0%;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  /*Etoooo*/
   filter: blur(1.5vmin);
   z-index: 100;
 }
@@ -718,7 +717,7 @@ body {
   height: 50vmin;
   border-top-left-radius: 100%;
   border-left: 2vmin solid #079097;
-  background-image: linear-gradient(to bottom, transparent, var(--dark-color) 60%);
+  background-image: linear-gradient(to bottom, transparent, var(--dark-color) 60%); /* Eto*/
   mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
 }
 .flower__g-right--1 {

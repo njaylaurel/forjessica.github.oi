@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(247, 245, 245);
+    background: #fee8db;
 }
 h2 {
     text-align: center;
