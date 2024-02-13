@@ -16,7 +16,7 @@
   top: 10%; 
   left: 75%;
   transform: translateX(-50%);
-  color: #f28ca8; 
+  color: #fafafa00; 
   text-align: right;
 }
 
@@ -54,6 +54,7 @@ input[type="radio"]:checked {
   border-radius: 0px;
   cursor: pointer;
   transition: transform 400ms ease;
+  animation: pop 0.5s ease forwards;
 }
 #p1:checked ~ #slide1,
 #p2:checked ~ #slide2,

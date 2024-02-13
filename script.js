@@ -5,12 +5,12 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Wait for the Tulips to Bloom";
+  question.innerHTML = "YEY!";
   gif.src = "https://media1.giphy.com/media/iCVzZwwE6QNAV2tEE0/giphy.gif";
 
   setTimeout(() => {
     window.location.href = "second.html";
-  }, 4000);
+  }, 3000);
  
 });
 
